@@ -24,13 +24,25 @@ body {
 }
 
 .cabecera {
-	background: rgb(235, 196, 1);
+	display: flex;
+	justify-content: space-between;
+	background: ;
 	color: #000;
 	font-weight: bold;
 	margin: 0;
 	padding: 1rem;
 	font-size: 18px;
-	box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+	border-bottom: 1px solid rgb(192, 192, 192);
+	/* box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3); */
+}
+
+.icons span {
+	padding-left: 12px;
+	cursor: pointer;
+}
+
+.icons span:hover {
+	color: rgb(232, 189, 0);
 }
 
 .tect {
