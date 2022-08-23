@@ -41,3 +41,11 @@ body {
 .post {
 	padding: 1em;
 }
+
+.footer-post footer {
+	display: flex;
+	justify-content: end;
+	padding: 10px;
+	border-top: 1px solid rgb(194, 194, 194);
+	font-family: monospace;
+}
