@@ -17,6 +17,10 @@ body {
 
 .container h1 {
 	font-size: 20px;
+	text-align: center;
+	background: rgb(8, 193, 255);
+	font-weight: bold;
+	padding: 0.5em;
 }
 
 .cabecera {
@@ -36,7 +40,7 @@ body {
 }
 
 .icons span:hover {
-	color: rgb(232, 189, 0);
+	color: rgb(8, 193, 255);
 }
 
 .tect {
@@ -46,4 +50,12 @@ body {
 
 .post {
 	padding: 1em;
+}
+
+.footer-post footer {
+	display: flex;
+	justify-content: end;
+	padding: 10px;
+	border-top: 1px solid rgb(194, 194, 194);
+	font-family: monospace;
 }
